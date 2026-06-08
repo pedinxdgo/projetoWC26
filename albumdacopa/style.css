@@ -21,7 +21,20 @@ body {
     left: 0;
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
+    position: absolute;
     
+}
+
+.subtitulo {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+}
+
+.começo{
+    position: relative;
 }
 
 .logodacopa{

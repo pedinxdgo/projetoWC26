@@ -12,15 +12,27 @@ body {
     justify-content: center;
 }
 
+h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    background-color: #f5f7fa;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    left: 0;
+    z-index: 1;        /* Joga o texto para trás para não sumir */
+    pointer-events: none;
+}
+
 
 .grupos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    
     gap: 30px;
-    width: 93%;
     margin: 0 auto;
 }
 
@@ -34,12 +46,13 @@ body {
     );
     border: 1px solid rgba(255,255,255,0.15);
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     box-shadow: 0 0 5px #333;
     padding: 10px;
     box-sizing: border-box;
     align-items: center;
     transition: 0.3s;
+    width: 70%;
 }
 
 .grupo li {
@@ -94,7 +107,7 @@ body {
 
 .cabecalho-tabela{
     display: grid;
-    grid-template-columns:  4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  4fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
     font-size: 18px;
     font-weight: bold;
     color: #F4C542;
@@ -103,7 +116,7 @@ body {
 
 .linha-time{
     display: grid;
-    grid-template-columns:  4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  4fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
     align-items: center;
     width: 100%;
 }
@@ -125,11 +138,12 @@ a:hover{
 }
 
 .botoes {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 203px);
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
 }
 
 html{
