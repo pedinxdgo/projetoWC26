@@ -45,17 +45,30 @@ header {
     
 }
 
-h2 {
+.começo{
+    position: relative;
+}
+
+.fundo img{
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.titulo {
     font-size: 50px;
-    padding-bottom: 10px;
-    background-color: #f5f7fa;
-    color: rgb(0, 0, 0);
+    text-shadow: 0 0 7px black;
+    color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
-    left: 0;
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
+    position: absolute;
+    top: 300px;
 }
+
+
 
 
 .grupos{
@@ -154,7 +167,7 @@ h2 {
     width: 100%;
 }
 
-a {
+.botoes a {
     background-color: #001F5B;
     color: white;
     font-size: 20px;
@@ -165,7 +178,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+.botoes a:hover{
     background-color: #F4C542;
     color: black;
 }

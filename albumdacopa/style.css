@@ -79,6 +79,14 @@ header {
 
 }
 
+.logodacopa {
+    cursor: pointer;
+}
+
+.logodacopa2 {
+    cursor: pointer;
+}
+
 .calendario{
     display: flex;
     gap: 20px;
@@ -112,7 +120,7 @@ header {
     border-radius: 10px;
     box-shadow: 0 0 8px #333;
     padding: 5px;
-    min-width: 530px;
+    min-width: 600px;
     flex: 1;
     
 }
@@ -174,9 +182,10 @@ html{
 }
 
 .noticias-inicio h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: #001F5B;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .cards-noticias {
@@ -222,20 +231,29 @@ html{
 }
 
 .ver-mais {
-    text-align: right;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 20px;
+    width: 1620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 
 .ver-mais a{
     background-color: #001F5B;
     color: white;
     padding: 12px 20px;
-    margin-right: 105px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    box-shadow: 0 0 8px #333;
+    text-shadow: 0 0 0.5px #333;
+}
+
+.ver-mais a:hover {
+    background-color: #F4C542;
+    color: black;
 }
 
 footer {
