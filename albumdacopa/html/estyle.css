@@ -56,8 +56,8 @@ header {
     margin-bottom: 60px;
 }
 
-.titulo {
-    font-size: 50px;
+.fundo h2 {
+    font-size: 70px;
     text-shadow: 0 0 7px black;
     color: rgb(255, 255, 255);
     width: 100%;
@@ -65,5 +65,84 @@ header {
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
     position: absolute;
-    top: 300px;
+    top: 270px;
+}
+
+.artilheiros h2 {
+    font-size: 50px;
+    color: #001F5B;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 0 1px #333;
+}
+
+.cabecalho-artilheiros{
+    display: grid;
+    grid-template-columns:  8fr 1fr;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4C542;
+    margin-bottom: 9px;
+}
+
+.artilheiros li {
+    list-style: none;
+}
+
+.linha-gols{
+    display: grid;
+    grid-template-columns:  8fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.jogador {
+    display: flex; /* Alinha a imagem e o texto lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaçamento entre a foto e o nome */
+    padding: 10px 0;
+    font-size: 21px;
+    text-shadow: 0 0 1px #333;
+}
+
+.fi {
+    border-radius: 2px;
+    box-shadow: 0 0 5px #333;
+}
+
+.foto-jogador {
+    width: 150px; /* Ajuste o tamanho conforme preferir */
+    height: 150px;
+    border-radius: 50%; /* Isso torna a imagem circular */
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+    border: 1px solid #ccc; /* Opcional: uma borda fina */
+}
+
+.assistentes h2 {
+    font-size: 50px;
+    color: #001F5B;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 0 1px #333;
+}
+
+.cabecalho-assistentes{
+    display: grid;
+    grid-template-columns:  8fr 1fr;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4C542;
+    margin-bottom: 9px;
+}
+
+.assistentes li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.linha-assist{
+    display: grid;
+    grid-template-columns:  8fr 1fr;
+    align-items: center;
+    width: 100%;
 }
