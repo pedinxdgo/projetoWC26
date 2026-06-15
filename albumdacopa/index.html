@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="imagens/OIP.jpg">
+    <link rel="icon" type="image/png" href="imagens/logo.png">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -16,23 +13,22 @@
 </head>
 <body>
     <header>
-        <div class="logodacopa">
-            <img src="imagens/ChatGPT Image 10 de jun. de 2026, 16_02_40.png" alt="do lado do titulo" width="95">
+        <div class="logodacopa" id="home">
+            <img src="imagens/logo.png" alt="do lado do titulo" width="70">
         </div>
         <nav class="cabecalho">
-            <a href="#jogos">Jogos</a>
-            <a href="html/tabela.html">Classificação</a>
-            <a href="">Equipes</a>
-            <a href="">Estatísticas</a>
+            <a href="html/grupos.html">Classificação</a>
+            <a href="#resultados">Resultados</a>
+            <a href="html/estatisticas.html">Estatísticas</a>
             <a href="html/noticias.html">Notícias</a>
         </nav>
         <div class="logodacopa2">
-            <img src="imagens/ChatGPT Image 10 de jun. de 2026, 16_02_40.png" alt="do lado do titulo" width="95">
+            <img src="imagens/logo.png" alt="do lado do titulo" width="70">
         </div>
     </header>
     <div class="começo">
         <div class="fundo">
-            <img src="imagens/ChatGPT Image 8 de jun. de 2026, 12_06_46.png">
+            <img src="imagens/banner.png">
         <div class="titulo">
             <h1>Copa Do Mundo<br> da FIFA 2026™</h1>
         </div>
@@ -40,37 +36,98 @@
             <h2>De 11 de Junho a 19 de Julho</h2>
         </div>
         </div>
-   
     </div>
     <hr>
     <div class="calendario">
-        <h2>Agenda de Jogos</h2>
+        <h2 id="resultados">Últimos Resultados</h2>
     </div>
     <div class="jogos">
-        <div class="data">
-            <p>11/06</p>
+        <div class="result">
             <ul>
-                <li>México x Coréia do Sul <span>16h00</span></li>
-                <hr>
+                <p>14/06 - 14h00</p>
+                <p>Grupo E</p>
+                <span class="fi fi-de"></span>
+                <span>Alemanha <b>7</b> x <b>1</b> Curaçau</span>
+                <span class="fi fi-cw"></span>
+                <p>NRG Stadium</p>
             </ul>
         </div>
-        <div class="data">
-            <p>12/06</p>
-      
-            <p>13/06</p>
-    
-            <p>14/06</p>
-
-            <p>15/06</p>
+        <div class="result">
+            <ul>
+                <p>14/06 - 17h00</p>
+                <p>Grupo F</p>
+                <span class="fi fi-nl"></span>
+                <span>Holanda <b>2</b> x <b>2</b> Japão</span>
+                <span class="fi fi-jp"></span>
+                <p>AT&T Stadium</p>
+            </ul>
+        </div>
+        <div class="result">
+            <ul>
+                <p>14/06 - 20h00</p>
+                <p>Grupo E</p>
+                <span class="fi fi-ci"></span>
+                <span>Costa do Marfim <b>1</b> x <b>0</b> Equador</span>
+                <span class="fi fi-ec"></span>
+                <p>Lincon Financial Field</p>
+            </ul>
+        </div>
+        <div class="result">
+            <ul>
+                <p>14/06 - 23h00</p>
+                <p>Grupo F</p>
+                <span class="fi fi-se"></span>
+                <span>Suécia <b>0</b> x <b>0</b> Tunísia</span>
+                <span class="fi fi-tn"></span>
+                <p>Estadio BBVA</p>
+            </ul>
+        </div>
     </div>
     <div class="estatisticas">
         <h2>Estatísticas</h2>
-        <a href="html/estatisticas.html">Clique aqui para ver as estatísticas das seleções e jogadores</a>
+        
     </div>
-    <div class="noticias">
-        <h2>Notícias</h2>
-        <a href="noticias.html">Veja aqui as últimas notícias</a>
+        <section class="noticias-inicio">
+        <h2>Notícias</h2> 
+        <div class="cards-noticias">
+        <div class="card-noticia">
+            <img src="imagens/ancelotti.jpg" alt="" width="90">
+            <a href="noticias/noticiaancelotti.html">
+            <h3>Ancelotti minimiza empate do Brasil na Copa</h3>
+            <p>14/06</p>
+            </a>
+        </div>
+        <div class="card-noticia">
+            <img src="imagens/juiz.jpg" alt="" width="90">
+            <a href="noticias/noticiajuiz.html">
+            <h3>Árbitro somali impedido de entrar nos EUA receberá salário integral da FIFA</h3>
+            <p>13/06</p>
+            </a>
+        </div>
+        <div class="card-noticia">
+            <img src="imagens/mauricio.jpg" alt="" width="90">
+            <a href="noticias/noticiamauricio.html">
+            <h3>Maurício, do Palmeiras, marca pela primeira vez em Copas, mas Paraguai é derrotado pelos EUA</h3>
+            <p>13/06</p>
+            </a>
+        </div>
+        </div>
+        <div class="ver-mais">
+        <a href="html/noticias.html">Veja todas as notícias aqui</a>
+        </div>
+        </section>
     </div>
-    
+    <footer>
+    <div class="rodape">
+        <h3>Copa do Mundo FIFA 2026™</h3>
+        <img src="imagens/logo.png" alt="" width="150">
+
+        <p>Uma Copa. Três Países. O Mundo Inteiro.</p>
+
+        <p>
+            © 2026 Todos os direitos reservados.
+        </p>
+    </div>
+</footer>
 </body>
 </html>
