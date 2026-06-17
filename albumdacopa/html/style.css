@@ -87,14 +87,24 @@ header {
     margin: auto;
     text-align: center;
     gap: 20px;
+    
     text-shadow: 0 0 1px #333;
 }
 
 .noticia-principal img {
     border-radius: 15px;
-    object-fit: cover;
     box-shadow: 0 0 7px;
     margin-top: 10px;
+    width: 650px;
+    
+}
+
+.noticia-principal h3 {
+    font-size: 30px;
+}
+
+.noticia-principal p {
+    font-size: 20px;
 }
 
 .noticia {
@@ -115,8 +125,9 @@ header {
     width: 500px;
     border-radius: 15px;
     margin-top: 10px;
-    object-fit: cover;
     box-shadow: 0 0 10px #333;
+    width: 500px;
+    
     
 }
 
@@ -136,4 +147,20 @@ a {
     font-size: 18px;
     color: white;
     text-decoration: none;
+}
+
+footer {
+    background-color: #001F5B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 12px;
+    color: #cbcbcb;
 }

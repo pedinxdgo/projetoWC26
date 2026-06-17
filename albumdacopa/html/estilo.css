@@ -65,7 +65,7 @@ header {
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
     position: absolute;
-    top: 300px;
+    top: 220px;
 }
 
 
@@ -99,6 +99,7 @@ header {
     align-items: center;
     transition: 0.3s;
     width: 70%;
+    scroll-margin-top: 500px;
 }
 
 .grupo li {
@@ -199,4 +200,68 @@ html{
 .titulo-grupo {
     display: flex;
     align-items: center;
+}
+
+footer {
+    background-color: #001F5B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 12px;
+    color: #cbcbcb;
+}
+
+#grupoA {
+    scroll-margin-top: 240px;
+}
+
+#grupoB {
+    scroll-margin-top: 240px;
+}
+
+#grupoC {
+    scroll-margin-top: 240px;
+}
+
+#grupoD {
+    scroll-margin-top: 240px;
+}
+
+#grupoE {
+    scroll-margin-top: 240px;
+}
+
+#grupoF {
+    scroll-margin-top: 240px;
+}
+
+#grupoG {
+    scroll-margin-top: 240px;
+}
+
+#grupoH {
+    scroll-margin-top: 240px;
+}
+
+#grupoI {
+    scroll-margin-top: 240px;
+}
+
+#grupoJ {
+    scroll-margin-top: 240px;
+}
+
+#grupoK {
+    scroll-margin-top: 240px;
+}
+
+#grupoL {
+    scroll-margin-top: 240px;
 }

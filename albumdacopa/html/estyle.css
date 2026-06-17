@@ -65,7 +65,7 @@ header {
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
     position: absolute;
-    top: 270px;
+    top: 220px;
 }
 
 .artilheiros h2 {
@@ -73,13 +73,14 @@ header {
     color: #001F5B;
     margin-bottom: 40px;
     text-align: center;
-    text-shadow: 0 0 1px #333;
+    text-shadow: 0 0 2px #333;
 }
 
 .cabecalho-artilheiros{
     display: grid;
-    grid-template-columns:  8fr 1fr;
-    font-size: 18px;
+    grid-template-columns:  7fr 1fr;
+    font-size: 25px;
+    text-shadow: 0 0 0.7px #333;
     font-weight: bold;
     color: #F4C542;
     margin-bottom: 9px;
@@ -87,6 +88,7 @@ header {
 
 .artilheiros li {
     list-style: none;
+    font-weight: bold;
 }
 
 .linha-gols{
@@ -94,6 +96,7 @@ header {
     grid-template-columns:  8fr 1fr;
     align-items: center;
     width: 100%;
+    font-size: 22px;
 }
 
 .jogador {
@@ -101,7 +104,7 @@ header {
     align-items: center; /* Centraliza verticalmente */
     gap: 10px; /* Espaçamento entre a foto e o nome */
     padding: 10px 0;
-    font-size: 21px;
+    font-size: 25px;
     text-shadow: 0 0 1px #333;
 }
 
@@ -114,6 +117,7 @@ header {
     width: 150px; /* Ajuste o tamanho conforme preferir */
     height: 150px;
     border-radius: 50%; /* Isso torna a imagem circular */
+    box-shadow: 0 0 7px #333;
     object-fit: cover; /* Garante que a foto não fique distorcida */
     border: 1px solid #ccc; /* Opcional: uma borda fina */
 }
@@ -123,15 +127,16 @@ header {
     color: #001F5B;
     margin-bottom: 40px;
     text-align: center;
-    text-shadow: 0 0 1px #333;
+    text-shadow: 0 0 2px #333;
 }
 
 .cabecalho-assistentes{
     display: grid;
-    grid-template-columns:  8fr 1fr;
-    font-size: 18px;
+    grid-template-columns:  7fr 1fr;
+    font-size: 25px;
+    text-shadow: 0 0 0.7px #333;
     font-weight: bold;
-    color: #F4C542;
+    color: #eec860;
     margin-bottom: 9px;
 }
 
@@ -141,8 +146,56 @@ header {
 }
 
 .linha-assist{
+    font-size: 22px;
     display: grid;
     grid-template-columns:  8fr 1fr;
     align-items: center;
     width: 100%;
+}
+
+.notas h2 {
+    font-size: 50px;
+    color: #001F5B;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 0 2px #333;
+}
+
+.cabecalho-notas{
+    display: grid;
+    grid-template-columns:  7fr 1fr;
+    font-size: 25px;
+    text-shadow: 0 0 0.7px #333;
+    font-weight: bold;
+    color: #eec860;
+    margin-bottom: 9px;
+}
+
+.notas li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.linha-nota{
+    font-size: 22px;
+    display: grid;
+    grid-template-columns:  8fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #001F5B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 12px;
+    color: #cbcbcb;
 }
