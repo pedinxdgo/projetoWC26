@@ -200,3 +200,15 @@ footer p {
     line-height: 12px;
     color: #cbcbcb;
 }
+
+#artilheiros {
+    scroll-margin-top: 500px;
+}
+
+#assistentes {
+    scroll-margin-top: 500px;
+}
+
+#notas {
+    scroll-margin-top: 500px;
+}
