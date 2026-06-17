@@ -169,7 +169,7 @@ hr {
     width: 350px;
     padding: 25px;
     text-align: center;
-
+    transition: 0.3s;
     background: #f4c542;
     border-radius: 15px;
     box-shadow: 0 0px 10px #333;
@@ -177,6 +177,10 @@ hr {
 
 .card-estatisticas img {
     justify-content: left;
+}
+
+.card-estatisticas:hover {
+    transform: translateY(-5px);
 }
 
 
