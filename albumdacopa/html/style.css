@@ -53,6 +53,7 @@ header {
     pointer-events: none;
     position: absolute;
     top: 150px;
+    font-size: clamp(2.5rem, 3vw, 5rem);
 }
 
 .fundo img {
@@ -76,9 +77,8 @@ header {
 .noticia-principal {
     background: linear-gradient(
     135deg,
-    #002868,
-    #0047AB,
-    #6A00FF
+    #c52233,
+    #a51c30
 );
     border-radius: 15px;
     box-shadow: 0 0 10px #333;
@@ -100,7 +100,7 @@ header {
 }
 
 .noticia-principal h3 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .noticia-principal p {
@@ -110,9 +110,8 @@ header {
 .noticia {
     background: linear-gradient(
     135deg,
-    #002868,
-    #0047AB,
-    #6A00FF
+    #c52233,
+    #a51c30
 );
     text-align: center;
     padding: 10px;
@@ -130,6 +129,7 @@ header {
     
     
 }
+
 
 .fundo img{
     position: relative;

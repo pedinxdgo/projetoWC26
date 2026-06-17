@@ -21,7 +21,7 @@ body {
     z-index: 1;        /* Joga o texto para trás para não sumir */
     pointer-events: none;
     position: absolute;
-    top: 20px;
+    top: 60px;
     
 }
 
@@ -31,8 +31,8 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 300px;
-    left: 550px;
+    top: 350px;
+    left: 700px;
 }
 
 header {
@@ -86,6 +86,10 @@ header {
 .logodacopa2 {
     cursor: pointer;
 }
+
+
+
+
 
 
 .calendario h2 {
@@ -147,15 +151,34 @@ hr {
   }
 
 .estatisticas a {
-    background-color: #001F5B;
+    font-size: 18px;
     color: white;
-    font-size: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 8px #333;
-    transition: 0.3s;
-    padding: 12px 20px;
     text-decoration: none;
+    text-shadow: 0 0px 10px #333;
+    line-height: 10px;
 }
+
+.naosei {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.card-estatisticas {
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+
+    background: #f4c542;
+    border-radius: 15px;
+    box-shadow: 0 0px 10px #333;
+}
+
+.card-estatisticas img {
+    justify-content: left;
+}
+
 
 .noticias a {
     color: black;
@@ -169,7 +192,6 @@ html{
 }
 
 .noticias-inicio {
-    
     margin-top: 50px;
 }
 

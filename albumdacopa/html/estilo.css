@@ -66,6 +66,7 @@ header {
     pointer-events: none;
     position: absolute;
     top: 220px;
+    font-size: clamp(2.5rem, 3.5vw, 5rem);
 }
 
 
@@ -219,49 +220,49 @@ footer p {
 }
 
 #grupoA {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoB {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoC {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoD {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoE {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoF {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoG {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoH {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoI {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoJ {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoK {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
 
 #grupoL {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 350px;
 }
