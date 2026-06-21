@@ -45,36 +45,29 @@ header {
     
 }
 
-.começo{
-    position: relative;
+.banner {
+    min-height: 60vh;
+    background-image: url("../imagens/bannertreco.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fundo img{
-    position: relative;
-    width: 100%;
-    display: block;
-    margin-bottom: 60px;
-}
-
-.titulo {
-    font-size: 50px;
-    text-shadow: 0 0 7px black;
-    color: rgb(255, 255, 255);
-    width: 100%;
+.texto-banner {
     text-align: center;
-    z-index: 1;        /* Joga o texto para trás para não sumir */
-    pointer-events: none;
-    position: absolute;
-    top: 220px;
-    font-size: clamp(2.5rem, 3.5vw, 5rem);
+    color: white;
 }
 
-
-
+.texto-banner h1 {
+    font-size: clamp(2rem, 5vw, 5rem);
+    text-shadow: 0 4px 10px #333
+}
 
 .grupos{
     display: flex;
-    
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,7 +87,7 @@ header {
     border: 1px solid rgba(255,255,255,0.15);
     color: white;
     border-radius: 7px;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 2px 7px #333;
     padding: 10px;
     box-sizing: border-box;
     align-items: center;
@@ -137,20 +130,21 @@ header {
     height: 0.8px;
     border: 0px;
     border-top: 0.5px solid rgb(255, 255, 255);
-    opacity: 50%;
+    opacity: 30%;
   }
-
-  .fi{
-    font-size: 25px;
-    object-fit: cover;
-    border-radius: 1.5px;
-}
 
 .time{
     display: flex;
     align-items: center;
     gap: 6px;
     font-size: 22px;
+    text-shadow: 0px 1px 5px #333;
+    object-fit: cover;
+}
+
+.time span {
+    font-size: 25px;
+    border-radius: 4px;
 }
 
 .cabecalho-tabela{
@@ -174,7 +168,7 @@ header {
     color: white;
     font-size: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 8px #333;
+    box-shadow: 0 2px 8px #333;
     transition: 0.3s;
     padding: 12px 20px;
     text-decoration: none;
@@ -191,7 +185,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 30px;
+    margin: 40px;
 }
 
 html{
