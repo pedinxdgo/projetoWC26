@@ -14,7 +14,7 @@ body {
 
 .banner {
     min-height: 60vh;
-    background-image: url("imagens/bannertreco.png");
+    background-image: url("../imagens/bannertreco.png");
     background-size: cover;
     background-position: center;
 
